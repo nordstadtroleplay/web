@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nordstadt Roleplay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="#start"><span class="lg" data-ic="shield" data-s="18"></span>Nordstadt <b>Roleplay</b></a>
+<nav id="nav"></nav>
+<a class="btn sm" id="discordTop" target="_blank" rel="noopener"><span data-ic="discord" data-s="16"></span>Discord</a>
+</div></header>
+<main>
+
+<section class="tab" id="start">
+<div class="hero">
+<div class="mesh"><i></i><i></i><i></i></div><div class="gridbg"></div>
+<div class="hgrid">
+<div class="hl">
+<span class="pill" id="phase"></span>
+<h1>Willkommen in <em>Nordstadt.</em></h1>
+<p class="lead">Das realistische Roleplay-Spiel auf Roblox. Arbeite bei Polizei, Bahn oder Verwaltung und baue dir dein Leben in einer Stadt auf, die nie schläft.</p>
+<div class="row"><a class="btn" id="discordBtn" target="_blank" rel="noopener"><span data-ic="discord" data-s="18"></span>Discord beitreten</a><button class="btn light" data-go="ausbildung">Ausbildungen<span data-ic="arrow" data-s="18"></span></button></div>
+</div>
+<aside class="live"><div class="lh"><span class="dot"></span>Live-Status</div><div id="statusMini"></div></aside>
+</div></div>
+
+<div class="feats">
+<div class="ft"><div class="ico" data-ic="shield" data-s="26"></div><h3>Echte Berufe</h3><p>Polizei, Kriminalamt, Bahn, Bank und mehr. Mit Ausbildung und Eignungstest.</p></div>
+<div class="ft"><div class="ico v" data-ic="users" data-s="26"></div><h3>Faire Community</h3><p>Klare Regeln und ein Support-Team, das bei VDM und Fehlverhalten hilft.</p></div>
+<div class="ft"><div class="ico c" data-ic="zap" data-s="26"></div><h3>Ständig besser</h3><p>Die Beta ist vorbei. Wir verbessern weiter und beheben Fehler bis Ende des Jahres.</p></div>
+</div>
+
+<div class="sh"><span data-ic="zap" data-s="22"></span><h2>Devlog</h2></div>
+<div class="tl" id="devlog"></div>
+</section>
+
+<section class="tab" id="status">
+<div class="sh first"><span data-ic="activity" data-s="22"></span><h2>Status</h2></div>
+<div id="maint"></div>
+<div class="list" id="statusGrid"></div>
+<div class="sh"><span data-ic="clock" data-s="22"></span><h2>Discord-Zeiten</h2></div>
+<p class="mute">Alle Zeiten in deutscher Zeit. Der Status wechselt automatisch.</p>
+<div class="grid" id="dcGrid"></div>
+</section>
+
+<section class="tab" id="support">
+<div class="sh first"><span data-ic="help" data-s="22"></span><h2>Support</h2></div>
+<p class="mute lead2">Schau zuerst in die häufigen Fragen. Brauchst du mehr Hilfe, öffne ein Ticket im Support-Discord.</p>
+<div class="row" style="margin:0 0 26px"><a class="btn" id="supportBtn" target="_blank" rel="noopener"><span data-ic="ticket" data-s="18"></span>Ticket öffnen</a></div>
+<div class="faq" id="faq"></div>
+<div class="sh"><span data-ic="clock" data-s="22"></span><h2>Support-Zeiten</h2></div>
+<div class="hours" id="hoursTable"></div>
+<p style="margin-top:18px"><span class="badge" id="supportNow"></span></p>
+</section>
+
+<section class="tab" id="ausbildung">
+<div class="sh first"><span data-ic="cap" data-s="22"></span><h2>Ausbildungen</h2></div>
+<p class="mute lead2">Wähle einen Bereich und starte den Eignungstest. Ab 80 % machst du einen Screenshot deines Ergebnisses und legst ihn in dein Bewerbungsticket im Discord.</p>
+<div class="grid jobs" id="jobGrid"></div>
+<p class="note" style="margin-top:22px"><span data-ic="lock" data-s="14"></span> Du kannst jeden Eignungstest nur einmal machen.</p>
+</section>
+
+</main>
+<footer><div class="fl"><span data-ic="shield" data-s="16"></span>Nordstadt Roleplay</div>© <span id="yr"></span> · Nicht mit Roblox verbunden</footer>
+<dialog id="dlg"><div class="qb" id="qb"></div></dialog>
+<script src="tests.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
