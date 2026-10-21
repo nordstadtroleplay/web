@@ -11,7 +11,7 @@ const CONFIG={
     {name:"Weiterer Server",state:"bald",label:"Bald verfügbar",note:"Folgt demnächst."}
   ],
   /* Wartungsmeldung: leer lassen ("") = keine Meldung */
-  maintenance:{text:"",type:"warn"},   // z. B. text:"Wartung heute 20–22 Uhr", type:"warn" oder "good"
+  maintenance:{text:"Wartungsarbeiten Nordstadt Roleplay Roblox Server",type:"warn"},   // z. B. text:"Wartung heute 20–22 Uhr", type:"warn" oder "good"
 
   /* Zeiten (0=So … 6=Sa) → [öffnet, schließt] in Stunden, deutsche Zeit */
   hours:{0:[10,21],1:[10,21],2:[10,21],3:[10,21],4:[10,21],5:[10,22],6:[10,22]},
@@ -21,8 +21,8 @@ const CONFIG={
   /* Devlog: neuester zuerst. Neuen Eintrag oben einfügen, alte rutschen nach unten. Zeige die letzten 2. */
   devlogShow:2,
   devlog:[
-    {title:"Update 1.1 – Fahrzeuge & Fixes",date:"2026-10-20",items:["Neu: überarbeitetes Fahrzeugverhalten","Neu: Ausbildungsbereich auf der Website","Fix: Verbindungsabbrüche beim Serverwechsel"]},
-    {title:"Update 1.0 – Ende der Beta",date:"2026-09-28",items:["Beta-Phase beendet","Neues Ticketsystem","Bekannte Fehler werden laufend behoben"]}
+    {title:"Update 2.1 – Bundesregierung Update",date:"2026-10-20",items:["Neu: überarbeitete Uniform","Neu: Bundesregierung Service Center","Fix: Weste der Bundesregierung"]},
+    {title:"Update 2.0 – Ende der Beta",date:"2026-09-28",items:["Beta-Phase beendet","Neues Main Menu","Bekannte Fehler werden laufend behoben"]}
   ],
 
   /* Ausbildungen. state: aktiv | bald | geschlossen */
@@ -30,10 +30,10 @@ const CONFIG={
     {id:"lp",name:"Landespolizei",state:"aktiv",desc:"Sorge für Sicherheit und Ordnung in Nordstadt: Streife, Einsätze, Verkehrskontrollen."},
     {id:"bp",name:"Bundespolizei",state:"aktiv",desc:"Schütze Grenzen, Bahnhöfe und wichtige Einrichtungen."},
     {id:"lka",name:"Landeskriminalamt",state:"bald",desc:"Ermittle bei schweren Straftaten und arbeite verdeckt."},
-    {id:"sv",name:"Stadtverwaltung",state:"aktiv",desc:"Betreue Bürger, Ausweise, Anträge und Termine."},
-    {id:"sb",name:"Nordstadt-Südbahn",state:"aktiv",desc:"Fahre Bahnen und halte den Takt der Stadt."},
+    {id:"sv",name:"Stadtverwaltung",state:"bald",desc:"Betreue Bürger, Ausweise, Anträge und Termine."},
+    {id:"sb",name:"Nordstadt-Südbahn",state:"geschlossen",desc:"Fahre Bahnen und halte den Takt der Stadt."},
     {id:"bk",name:"Nordstadt-Bank",state:"geschlossen",desc:"Berate Kunden, verwalte Konten und sichere Werte."},
-    {id:"mb",name:"Nordstadt-Mobil",state:"aktiv",desc:"Kümmere dich um Fahrzeuge, Service und Mobilität."},
+    {id:"mb",name:"Nordstadt-Mobil",state:"geschlossen",desc:"Kümmere dich um Fahrzeuge, Service und Mobilität."},
     {id:"vb",name:"Verkehrsbetriebe",state:"bald",desc:"Steuere Busse und Verkehr in der ganzen Stadt."}
   ],
 
