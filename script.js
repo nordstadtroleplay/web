@@ -16,7 +16,7 @@ const CONFIG={
   /* Zeiten (0=So … 6=Sa) → [öffnet, schließt] in Stunden, deutsche Zeit */
   hours:{0:[10,21],1:[10,21],2:[10,21],3:[10,21],4:[10,21],5:[10,22],6:[10,22]},
   /* Discord-Kategorien mit Zeiten (hier gleiche Zeiten, einzeln änderbar) */
-  discordCats:[{name:"Discord",use:"hours"},{name:"Discord Support",use:"hours"}],
+  discordCats:[{name:"Voice Support (Discord)",use:"hours"},{name:"Ticket Support (Discord)",use:"hours"}],
 
   /* Devlog: neuester zuerst. Neuen Eintrag oben einfügen, alte rutschen nach unten. Zeige die letzten 2. */
   devlogShow:2,
