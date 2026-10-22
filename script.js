@@ -8,10 +8,10 @@ const CONFIG={
   status:[
     {name:"Hauptserver",state:"online",note:"Läuft stabil."},
     {name:"Website",state:"online",note:""},
-    {name:"Nordstadt Roleplay",state:"wartung",label:"Roblox",note:"Störungen"}
+    {name:"Nordstadt Roleplay",state:"wartung",label:"Störung",note:"Kleine Störung innerhalb der Spielbereiche Verkehrsberiebe, Landespolizei und Nordstadt Südbahn."}
   ],
   /* Wartungsmeldung: leer lassen ("") = keine Meldung */
-  maintenance:{text:"Aktuell können Störungen auftreten, das Problem wurde identifiziert und wird behoben.",type:"warn"},   // z. B. text:"Wartung heute 20–22 Uhr", type:"warn" oder "good"
+  maintenance:{text:"Aktuell können Störungen auftreten.",type:"warn"},   // z. B. text:"Wartung heute 20–22 Uhr", type:"warn" oder "good"
 
   /* Zeiten (0=So … 6=Sa) → [öffnet, schließt] in Stunden, deutsche Zeit */
   hours:{0:[10,21],1:[10,21],2:[10,21],3:[10,21],4:[10,21],5:[10,22],6:[10,22]},
