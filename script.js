@@ -21,8 +21,8 @@ const CONFIG={
   /* Devlog: neuester zuerst. Neuen Eintrag oben einfügen, alte rutschen nach unten. Zeige die letzten 2. */
   devlogShow:2,
   devlog:[
-    {title:"Update 2.1 – Bundesregierung Update",date:"2026-10-20",items:["Neu: überarbeitete Uniform","Neu: Bundesregierung Service Center","Fix: Weste der Bundesregierung"]},
-    {title:"Update 2.0 – Ende der Beta",date:"2026-09-28",items:["Beta-Phase beendet","Neues Main Menu","Bekannte Fehler werden laufend behoben"]}
+    {title:"Update 2.1 – Landespolizei Update",date:"2026-10-22",items:["Neu: überarbeitete Gebäude","Neu: Polizeigewahrsam","Fix: Türen und Tür Systeme"]},
+    {title:"Update 2.1 – Bundesregierung Update",date:"2026-10-21",items:["Neu: überarbeitete Uniform","Neu: Bundesregierung Service Center","Fix: Weste der Bundesregierung""]}
   ],
 
   /* Ausbildungen. state: aktiv | bald | geschlossen */
