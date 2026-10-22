@@ -8,7 +8,7 @@ const CONFIG={
   status:[
     {name:"Hauptserver",state:"online",note:"Läuft stabil."},
     {name:"Website",state:"online",note:""},
-    {name:"Nordstadt Roleplay",state:"wartung",label:"Störung",note:"Kleine Störung"}
+    {name:"Nordstadt Roleplay",state:"wartung",label:"Störung",note:"Kleine Störungen innerhalb der Teambereiche Landespolizei, Nordstadt Südbahn, Nordstadt Verkehrsbetriebe."}
   ],
   /* Wartungsmeldung: leer lassen ("") = keine Meldung */
   maintenance:{text:"Aktuell können Störungen auftreten.",type:"warn"},   // z. B. text:"Wartung heute 20–22 Uhr", type:"warn" oder "good"
