@@ -140,7 +140,7 @@ function render(){
 
   /* Live-Panel im Hero */
   $("#statusMini").innerHTML=CONFIG.status.slice(0,2).map((s,i)=>`<div class="lr"><span class="li">${ic(SIC[i],18)}</span><span>${esc(s.name)}</span>${badge(s.state,s.label)}</div>`).join("")
-   +`<div class="lr"><span class="li">${ic("discord",18)}</span><span>Discord</span>${badge(open?"open":"closed")}</div>`;
+   +`<div class="lr"><span class="li">${ic("help",18)}</span><span>Support</span>${badge(open?"open":"closed")}</div>`;
 
   /* Status */
   $("#statusGrid").innerHTML=CONFIG.status.map((s,i)=>`<div class="srow rv"><span class="tile">${ic(SIC[i%3],24)}</span><div><h3>${esc(s.name)}</h3><p class="mute">${esc(s.note||"Keine Meldung.")}</p></div>${badge(s.state,s.label)}</div>`).join("");
