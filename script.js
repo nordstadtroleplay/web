@@ -21,8 +21,8 @@ const CONFIG={
   /* Devlog: neuester zuerst. Neuen Eintrag oben einfügen, alte rutschen nach unten. Zeige die letzten 2. */
   devlogShow:2,
   devlog:[
-    {title:"Update 2.3 – Landespolizei Update",date:"2026-10-22",items:["Neu: überarbeitete Gebäude","Neu: Polizeigewahrsam","Fix: Türen und Tür Systeme"]},
-    {title:"Update 2.2 – Bundesregierung Update",date:"2026-10-21",items:["Neu: überarbeitete Uniform","Neu: Bundesregierung Service Center","Fix: Weste der Bundesregierung"]}
+    {title:"Update 2.4 – Verkehr und Bahn Update",date:"2026-10-23",items:["Neu: Neue und überarbeitete Gebäude","Neu: Leitstelle Verkehrsbetriebe","Fix: Bus Matrix"]},
+    {title:"Update 2.3 – Landespolizei Update",date:"2026-10-22",items:["Neu: überarbeitete Gebäude","Neu: Polizeigewahrsam","Fix: Türen und Tür Systeme"]}
   ],
 
   /* Ausbildungen. state: aktiv | bald | geschlossen */
